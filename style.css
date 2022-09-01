@@ -1,0 +1,46 @@
+:root {
+	--font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: var(--font-family);
+}
+
+h4 {
+	margin-bottom: 3px;
+}
+
+input, select, button {
+	padding: 10px;
+	margin: 0 0 5px 0;
+	border-radius: 10px;
+	border: 1px solid black;
+	transition: all 0.1s ease-in-out;
+}
+
+button:active {
+	background-color: rgb(47, 199, 47);
+}
+
+input,
+button,
+select {
+	font-family: var(--font-family);
+}
+.center {
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+}

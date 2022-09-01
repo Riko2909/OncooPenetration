@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Oncoo Penetration</title>
+   <script src="index.js" defer></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Oncoo Room-Penetration</h1>
+   <div class="center">
+      <div id="progress"></div>
+      <h4>RaumID</h4>
+      <input type="text" id="room" value="0y8k" placeholder="Raum">
+      <h4>Anzahl der Nachrichten</h4>
+      <input type="number" id="requestcount" placeholder="Sendeanzahl">
+      <input type="text" id="content" placeholder="Textinhalt"><br>
+      <h4>Blockfarbe</h4>
+      <select id="color">
+         <option selected value="gruen">Grün</option>
+         <option value="gelb">Gelb</option>
+         <option value="rosa">Rosa</option>
+         <option value="rot">Rot</option>
+         <option value="weiss">Weiß</option>
+      </select>
+      <button onclick="postToURL()">Starte Penetration</button>
+   </div>
+</body>
+</html>
